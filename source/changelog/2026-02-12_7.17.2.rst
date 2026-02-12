@@ -7,4 +7,4 @@ Fixed
 -----
 
 * Web: "unknown domain" errors now appear when there's a path in the URL
-* Sieve can now send emails without a sender (useful for rejects)
+* Sieve can send emails without a sender (useful for rejects) again
