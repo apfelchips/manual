@@ -1,0 +1,10 @@
+Added
+-----
+
+* rspamd: Integrated commercial fuzzy database for SPAM mitigation
+
+Fixed
+-----
+
+* Web: "unknown domain" errors now appear when there's a path in the URL
+* Sieve can now send emails without a sender (useful for rejects)
