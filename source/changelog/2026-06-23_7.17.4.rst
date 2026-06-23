@@ -1,0 +1,9 @@
+added
+-----
+
+* Outgoing mail from ``@uber.space`` addresses is now signed with DKIM, so receiving providers can verify that messages really came from us.
+
+fixed
+-----
+
+* rspamd's ``R_SUSPICIOUS_URL`` rule produced too many false positives on U7 and its behavior was unreliable. Since the issue does not appear on U8 and upgrading rspamd on U7 is not straightforward, we simply disabled the rule.
